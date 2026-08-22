@@ -1,0 +1,74 @@
+ion-header, ion-content, ion-button, ion-item {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ion-header.dark {
+  --ion-background-color: #121212;
+  --ion-text-color: #ffffff;
+}
+
+ion-content.dark {
+  --ion-background-color: #1f1f1f;
+  --ion-text-color: #ffffff;
+}
+
+ion-button.dark {
+  --ion-background-color: #2e2e2e;
+  --ion-text-color: #ffffff;
+}
+
+ion-item.dark {
+  --ion-background-color: #2e2e2e;
+  --ion-text-color: #ffffff;
+}
+  
+  
+  
+  ion-card-subtitle {
+    font-size: 1.2em;
+  }
+  
+  ion-card-content {
+    font-size: 1em;
+  }
+
+  .screenshot-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .screenshot {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+  
+  .screenshot img {
+    width: 100%;
+    height: auto;
+  }
+
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 8px;
+  }
+  
+  .circle.dark {
+    background-color: #333; /* Dark mode circle color */
+  }
+  
+  .circle.light {
+    background-color: #eee; /* Light mode circle color */
+  }
+  
+  .circle.active {
+    border: 2px solid #fff; /* Border for the active circle */
+  }
+  
